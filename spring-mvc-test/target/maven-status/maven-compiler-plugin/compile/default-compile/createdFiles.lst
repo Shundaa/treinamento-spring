@@ -1,0 +1,8 @@
+com\wipro\springmvctest\service\PokemonService.class
+com\wipro\springmvctest\service\TreinadorService.class
+com\wipro\springmvctest\controller\PokemonController.class
+com\wipro\springmvctest\entity\Treinador.class
+com\wipro\springmvctest\controller\TreinadorController.class
+com\wipro\springmvctest\repository\TreinadorRepository.class
+com\wipro\springmvctest\entity\Pokemon.class
+com\wipro\springmvctest\SpringMvcTestApplication.class

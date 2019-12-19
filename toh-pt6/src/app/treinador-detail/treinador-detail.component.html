@@ -1,0 +1,19 @@
+<div *ngIf="treinador">
+  <h2>{{treinador.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{treinador.id}}</div>
+  <div>
+    <label>name:
+      <input [(ngModel)]="treinador.name" placeholder="name"/>
+    </label>
+  </div>
+  <ul *ngFor="let pokemon of treinador.pokemons" class ="pokemons">
+      <div><span>id: </span>{{pokemon.id}}</div>
+      <label>name:
+        <input [(ngModel)]="pokemon.name" placeholder="name"/>
+      </label>
+    <div> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png" alt="Girl in a jacket"></div>
+  </ul>
+
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+</div>

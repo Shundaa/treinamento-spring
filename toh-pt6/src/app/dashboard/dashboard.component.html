@@ -1,0 +1,11 @@
+<h3>Top Treinadores</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let treinador of treinadores" class="col-1-4"
+      routerLink="/detail/{{treinador.id}}">
+    <div class="module treinador">
+      <h4>{{treinador.name}}</h4>
+    </div>
+  </a>
+</div>
+
+<app-treinador-search></app-treinador-search>
